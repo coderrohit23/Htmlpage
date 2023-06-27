@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.slidebar{
+    position: absolute;
+    background-color: rgb(199, 190, 190);
+    /* width: 350px; */
+    font-family: 'Patua One', cursive;
+    height: 171vh;
+    transition: transform 0.3s ease-in;
+}
+.slidebar nav{
+    padding: 34px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 34px 0px;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: aliceblue;
+    width: 103vw;
+    height: 100vh;
+}
+.mainn h1{
+    display: flex;
+    flex-direction: column;
+    padding: 88px;
+    text-align: center;
+    font-size: 70px;
+}
+.mainn h2{
+    text-align: center;
+    font-size: 56px;
+}
+
+.container{
+    display: flex;
+}
+
+/* .infoContainer{
+    height: 56vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+.button{
+  margin-top: 2.2em;
+  font-size: 10px;
+}
+.btn{
+    padding: 9px 11px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 12px;
+    padding: 7px 15px;
+    margin: 0px 3px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue
+}
+
+
+
+
+
+.contactform {
+    padding: 0px 34px;
+    /* padding-top: 144px; */
+    font-family: 'Patua One', cursive;
+    margin:  88px;
+    
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    /* padding: 12px 0px; */
+
+
+}
+
+.contactform form div{
+    padding: 11px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contactform form div input{
+    /* width: 19vw; */
+    border-radius: 5px;
+    margin: 6px 0px 0 0;
+    padding: 3px;
+   
+}
+.contactform form{
+   margin: 0 40px;
+}
+#emailHelp{
+    font-size: 9px;
+    color: rgb(169, 136, 240);
+    margin: 0px 5px;
+}
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 23px;
+    margin: 3px 0px;
+
+}
+
+.infoitem {
+   margin: 20px;    
+   font-family: 'Patua One', cursive;
+}
+.infocontainer{
+    margin: 66px 88px;
+}
+.infocontainer h1{
+    font-size: 57px;
+    justify-content: center;
+    display: flex;
+     /* align-items: center; */
+    font-family: 'Patua One', cursive;
+    margin: 23px;
+
+    
+}
+ p{
+    font-family: 'Source Code Pro', monospace;
+}
+.guide{
+    margin: 65px 88px;
+}
+
+.guide h1{
+    font-size: 56px;
+  text-align: center;
+    font-family: 'Patua One', cursive;
+    /* font-weight: bold; */
+    margin:12px 12px;
+}
+.guide p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 40px 6px;
+    font-weight: bold;
+}
+
+
+
+.slidebarGo{
+    transform: translate(-443px , 0px);
+    position: absolute;
+  } 
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-top: 5px;
+
+    margin-left: 136px;
+}
+
+@media (max-width: 1200px) {
+.button{
+    font-size: 8px;
+}
+
+.guide,.blogcontainer,.contactform{
+    margin:  50px 8px;
+}
+}
+
